@@ -1,0 +1,56 @@
+/*
+ * Pablo Sanchez
+ * Description: Stylesheet for Remember the Cow Website
+ * Features: Header, footer, main login box, login error message, to-do list. 
+ */
+
+body, input, select, option, button, a {
+    color: #005AB4;
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: 14pt;
+}
+
+.headfoot {
+    background-color: #005AB4;
+    color: white;
+    padding: 0.5em;
+}
+
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 img {
+    float: left;
+    margin-right: 1em;
+}
+
+li {
+    margin-bottom: 0.5em;
+    width: 20em;
+}
+
+li form #submitbutton {
+    float: right;
+    margin-left: 1em;
+}
+
+#main {
+    margin: 2em;
+}
+
+#todolist form {
+    display: inline;
+}
+
+#todolist li {
+    clear: right;
+}
+
+/*Style for error message*/
+#error {
+    color: red;
+    font-weight: bold;
+    padding: 0.5em;
+}
